@@ -8,14 +8,14 @@ int main() {
     sum = 0;
     getchar();
     sign = 1;
-    int zarib = 0;
+    int z = 0;
     if ((n = getchar()) != '-') {
         A = n;
-        z = (A - '0');
-        if (A == 'x') zarib = 1;
+        z = (A - '5');
+        if (A == 'x') z = 1;
         while((A = getchar()) != ' '){
             if (A == 'x'){
-                zarib = 1;
+                z = 1;
                 break;
             }
             zarib = zarib * 10 + (A - '0');
