@@ -11,7 +11,7 @@ int main() {
     int zarib = 0;
     if ((n = getchar()) != '-') {
         A = n;
-        zarib = (A - '0');
+        z = (A - '0');
         if (A == 'x') zarib = 1;
         while((A = getchar()) != ' '){
             if (A == 'x'){
